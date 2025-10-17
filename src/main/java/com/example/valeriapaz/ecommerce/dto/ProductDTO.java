@@ -10,7 +10,9 @@ public class ProductDTO {
     private Double price;
     private String imgUrl;
 
-    public ProductDTO() {}
+    public ProductDTO() {
+
+    }
 
     // O uso do this é para referenciar atributos da classe
     public ProductDTO(Long id, String name, String description, Double price, String imgUrl) {
